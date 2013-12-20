@@ -3,10 +3,7 @@
 FiveCross *g_fiveCross = NULL;
 bool      *g_buttons = NULL;
 
-int WINAPI WinMain(HINSTANCE hInstance,
-                   HINSTANCE hPrevInstance,
-                   LPSTR lpCmdLine,
-                   int nCmdShow)
+int main(void)
 {
     g_fiveCross = new FiveCross();
 
